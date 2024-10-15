@@ -13,7 +13,7 @@ function Todo() {
     if (newTask.trim() == '') {
       Swal.fire('Please Write Someting!');
     } else {
-      setTask((t) => [...tasks, newTask]);
+      setTask((t) => [...t, newTask]);
       setNewTask('');
       localStorage.setItem('', [...tasks]);
     }
