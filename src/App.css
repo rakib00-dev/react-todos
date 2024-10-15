@@ -1,0 +1,55 @@
+#wrapper {
+  width: 60%;
+  inset: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin: auto;
+}
+
+li.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+li span {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+button#button-addon2:active {
+  background: rgb(0, 174, 0);
+}
+
+button.btn-close {
+  position: relative;
+  background-color: rgb(202, 202, 202);
+}
+
+button.btn-close:hover::after {
+  display: block;
+  position: relative;
+  right: -44px;
+  content: 'click button or item body';
+  z-index: 12;
+  width: 87px;
+  line-height: 15px;
+  padding: 1px;
+  border: 1px solid black;
+}
+
+button#delete-btn {
+  padding: 7px 15px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+button#move-btn {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 25px;
+}
