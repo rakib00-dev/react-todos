@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Swal from 'sweetalert2/dist/sweetalert2.all.js';
 
 function Todo() {
-  const [tasks, setTask] = useState(['33', 344, 'e34']);
+  const [tasks, setTask] = useState(['wake up at 5 am', 'Do 30 min exercise']);
   const [newTask, setNewTask] = useState('');
 
   function handelEvent(event) {
